@@ -25,4 +25,10 @@ class var():
         vartype = type(varname)
         print(vartype)
         print(varname)
+        
+    def temporary(name, value):
+        name = value        
+        print(value)
+        
+   
     
