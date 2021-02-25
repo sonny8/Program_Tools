@@ -17,3 +17,12 @@ class div():
         
     def section(sectionnumber, projectname):
         print("Section " + sectionnumber + "in" + projectname ".")
+        
+        
+class var():
+    
+    def attributes(varname):
+        vartype = type(varname)
+        print(vartype)
+        print(varname)
+    
