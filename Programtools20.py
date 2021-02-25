@@ -6,5 +6,14 @@ def ptgreeting():
 
 class div():
 
-    def projintro(projectname):
-        print("Starting... " + projectname)
+    def intro(projectname):
+        print("Starting " + projectname + "...")
+        
+    def end(projectname):
+        print("Ending " + projectname + "...")
+        
+    def endandquit(projectname):
+        print("Ending and quitting" + projectname + "...")
+        
+    def section(sectionnumber, projectname):
+        print("Section " + sectionnumber + "in" + projectname ".")
