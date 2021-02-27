@@ -1,4 +1,5 @@
 import time
+import AdminLoginAssist as ala
 greeting = ("Hey from Enersom!")
 
 def ptgreeting():
@@ -30,6 +31,23 @@ class var():
         
         print(name)
         print(value)
+
+import time
+
+def login(password, username):
+    print("1: Username")
+    print("2: Password")
+    usernameuser = input ("")
+    passworduser = input ("")
+
+    if usernameuser == username and passworduser == password:
+        pass
+
+    else:
+        quit()
+login("test", "el")
+print("Correct!")
+    
 
     
         
