@@ -16,7 +16,7 @@ class div():
         print("Ending and quitting" + projectname + "...")
         
     def section(sectionnumber, projectname):
-        print("Section " + sectionnumber + "in" + projectname ".")
+        print("Section " + sectionnumber + "in" + projectname + ".")
         
         
 class var():
@@ -27,8 +27,11 @@ class var():
         print(varname)
         
     def temporary(name, value):
-        name = value        
+        
+        print(name)
         print(value)
+
+    
         
    
     
